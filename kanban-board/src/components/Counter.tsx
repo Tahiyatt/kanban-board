@@ -14,7 +14,7 @@ function Counter({ initial }: CounterProps) {
   };
 
   return (
-    <div className="border-4 testing">
+    <div>
       <button onClick={handleClick} className="bg-blue-500 text-white p-4 w-50 rounded">
         {count}
       </button>
